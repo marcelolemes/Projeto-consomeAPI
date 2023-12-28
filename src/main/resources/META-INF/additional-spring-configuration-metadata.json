@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "fake-api.url",
+    "type": "java.lang.String",
+    "description": "A description for 'fake-api.url'"
+  },
+  {
+    "name": "cloud.loadbalancer.ribbon.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.loadbalancer.ribbon.enable'"
+  }
+]}
