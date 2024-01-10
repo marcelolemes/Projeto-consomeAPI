@@ -47,9 +47,6 @@ public class ProductsDTO {
 		this.descricao = descricao;
 		this.imagem = imagem;
 	}
-	public ProductsDTO() {
-		// TODO Auto-generated constructor stub
-	}
 	public Long getId() {
 		return id;
 	}

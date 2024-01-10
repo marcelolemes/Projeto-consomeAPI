@@ -36,27 +36,6 @@ public class ProdutoEntity {
     private LocalDateTime dataInclusao;
     @Column(name = "data_atualizacao")
     private LocalDateTime dataAtualizacao;
-    
-    
-	public ProdutoEntity(String id, String nome, BigDecimal preco, String categoria, String descricao, String imagem,
-			LocalDateTime dataInclusao, LocalDateTime dataAtualizacao) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.preco = preco;
-		this.categoria = categoria;
-		this.descricao = descricao;
-		this.imagem = imagem;
-		this.dataInclusao = dataInclusao;
-		this.dataAtualizacao = dataAtualizacao;
-	}
-
-
-	public ProdutoEntity() {
-		// TODO Auto-generated constructor stub
-	}
-
-
 	public String getId() {
 		return id;
 	}
